@@ -1,0 +1,3 @@
+# Garage Gauntlet
+
+Built a real-time multiplayer web game with room-based sessions, synchronized timers, server-authoritative game state, responsive UX, and replayable content. Garage Gauntlet lets 2–12 players join without accounts and race through ten automotive diagnosis challenges drawn from 20 original scenario cards. Built with React, TypeScript, Node.js, and Socket.IO, it includes speed-based scoring, live leaderboards, reconnect recovery, automatic host handoff, and same-room replay. Validated with automated game-rule and multiplayer tests and a complete ten-round playthrough across two independent browser sessions.
