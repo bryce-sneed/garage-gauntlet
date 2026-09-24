@@ -2,6 +2,12 @@
 
 **Diagnose it or lose it.** A browser party game for 2–12 players: 10 rounds, 20 seconds per round, 20 original automotive scenarios, and no player accounts.
 
+**Play:** https://garage-gauntlet.onrender.com
+
+**Source:** https://github.com/bryce-sneed/garage-gauntlet
+
+No setup is required to play. Open the link, create a room, and share its code. See `DEPLOYMENT.md` for the deployed configuration and public smoke-test results.
+
 ## Run locally
 
 Requirements: Node.js 22 or newer (24 recommended), npm.

@@ -47,5 +47,6 @@ Four real Socket.IO integration tests cover two independent socket clients throu
 - In-memory rooms survive individual refreshes/disconnections, but not a server restart, redeploy, or hosting sleep. This is the agreed single-instance design.
 - Render's free service can sleep when idle and take time to wake. A paid always-on instance is optional; no purchase is required to play.
 - Round transitions are server-authoritative; display updates remain subject to ordinary network delay and browser background throttling.
+- The full development-dependency audit reports two moderate notices in Vitest / `@vitest/mocker` (GHSA-82fw-gwwq-j7x9). The affected test-mocking server is not started or exposed by this application. The production-dependency audit is clean. Updating the test-runner major version is a separate maintenance item.
 
-Public deployment verification is recorded in `DEPLOYMENT.md` after publication.
+Public deployment verification passed and is recorded in `DEPLOYMENT.md`.
